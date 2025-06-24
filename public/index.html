@@ -1,1 +1,79 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-config="Burlington Concrete and Asphalt, Inc.">Burlington Concrete and Asphalt, Inc - Free Quote</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="main-content">
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="main-headline">Durable, High-Quality <span data-config="serviceName">Service</span> Services in <span data-config="Jacksonville and Surrounding">City</span></h1>
+                <p class="sub-headline">Get a Fast, Fair, and Free Quote for Your Project Today. No Obligation.</p>
+                <a href="#form-section" class="cta-button">GET MY FREE QUOTE NOW</a>
+                <p class="trust-signals"><em>Licensed & Insured • 5-Star Rated</em></p>
+            </div>
+        </section>
+
+        <section id="form-section" class="form-section">
+            <h2>Tell Us About Your Project</h2>
+            <form id="multi-step-form">
+                <div class="form-step active" id="step-1">
+                    <label for="service">What service are you interested in?</label>
+                    <select id="service" name="service" data-config-service-options>
+                        </select>
+                    <label for="details">Tell us a little more about your project:</label>
+                    <textarea id="details" name="details" rows="4"></textarea>
+                    <button type="button" class="next-button">Next →</button>
+                </div>
+
+                <div class="form-step" id="step-2">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                    <div>
+                        <button type="button" class="prev-button">← Previous</button>
+                        <button type="submit" class="submit-button">GET MY FREE QUOTE</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <div id="thank-you-screen" class="thank-you-screen hidden">
+        <div class="thank-you-content">
+            <h2>Thank You, <span id="thank-you-name">[Name]</span>!</h2>
+            <p>We've received your request. A member of the <span data-config="Burlington Concrete and Asphalt, Inc">[Business Name]</span> team will be in touch shortly.</p>
+            
+            <div class="next-step">
+                <h3>Want to lock in a time now?</h3>
+                <p>Skip the phone tag and schedule your consultation directly on our calendar.</p>
+                <a href="#" id="booking-link" target="_blank" class="cta-button">Book My Consultation</a>
+            </div>
+            
+            <div class="referral-section">
+                <p><strong>Special Offer:</strong> Watch the short video below to learn how you can get your Smart Website for FREE!</p>
+                <div class="video-placeholder" data-config="referralVideo">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="internal-notification" class="notification hidden">
+        <p><strong>🔔 New Lead Notification!</strong></p>
+        <p id="notification-text"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
