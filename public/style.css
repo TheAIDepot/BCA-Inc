@@ -243,3 +243,7 @@ textarea {
         box-sizing: border-box;
     }
 }
+.hero-logo {
+    max-width: 200px; /* You can change this number to make the logo bigger or smaller */
+    margin-bottom: 20px;
+}
