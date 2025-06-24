@@ -11,22 +11,22 @@ document.addEventListener('DOMContentLoaded', () => {
         disabledMessage: "This site is currently undergoing maintenance. Please check back later.",
 
         // Business & Service Details
-        businessName: "Burlington Concrete & Asphalt",
-        businessCity: "Burlington",
+        businessName: "Burlington Concrete & Asphalt, Inc.",
+        businessCity: "Jacksonville",
         serviceName: "Concrete & Asphalt",
         
         // The service options that appear in the form dropdown
         serviceOptions: [
             "Concrete Driveway",
             "Asphalt Paving",
-            "Interlock Patio",
+            "ICF",
             "Walkway Installation",
-            "General Repair",
+            "General Repairs",
             "Other"
         ],
 
         // Links and Embeds
-        googleCalendarLink: "https://your-google-calendar-booking-link.com", // IMPORTANT: Replace this link
+        googleCalendarLink: "https://api.leadconnectorhq.com/widget/otl/vINX8cWBL?slug=the-ai-depot-personal-calendar-xgzgq9c_e", // IMPORTANT: Replaced this link
         
         // Referral Video - Use a YouTube embed code. This one is a placeholder.
         referralVideoHTML: `<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
